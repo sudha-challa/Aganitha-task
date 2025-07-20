@@ -1,7 +1,7 @@
 import typer
-from pubmed_project.api import search_pubmed, fetch_papers
-from pubmed_project.filter import filter_non_academic_authors
-from pubmed_project.writer import write_csv, format_for_csv
+from pubmed_project_sudha.api import search_pubmed, fetch_papers
+from pubmed_project_sudha.filter import filter_non_academic_authors
+from pubmed_project_sudha.writer import write_csv, format_for_csv
 from typing import Optional
 
 app = typer.Typer()

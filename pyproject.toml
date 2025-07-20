@@ -1,5 +1,5 @@
 [project]
-name = "pubmed-project"
+name = "pubmed_project_sudha"
 version = "0.1.0"
 description = "My PubMed project"
 authors = [
@@ -22,3 +22,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 get-papers-list = "cli:app"
+
